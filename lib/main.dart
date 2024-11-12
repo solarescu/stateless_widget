@@ -14,8 +14,14 @@ class MainApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Stateless Widget Example'),
         ),
-        body: const Center(
-          child: Text('Hello, Flutter University!'),
+        body: Center(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text('Stateless Widget Example'),
+                Image.network('https://picsum.photos/250?image=9'),
+              ],
+          ),
         ),
       ),
     );
