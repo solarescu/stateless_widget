@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text('Stateless Widget Example'),
+                const Text('Hello, Flutter University!'),
                 Image.network('https://picsum.photos/250?image=9'),
               ],
           ),
